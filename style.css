@@ -1,0 +1,81 @@
+body 
+{
+
+
+}
+
+.gridContainer
+{
+    display: inline-grid;
+    grid-template-areas: 
+    'r1k1 r1k2'
+    'r2k1 r2k2';
+    /* grid-template-columns: auto auto; */
+    padding: 10px;   
+    object-fit: fill;
+}
+
+#rute1 
+{
+    grid-area: r1k1;
+    background-color:aquamarine;
+    min-height: 309px;
+    min-width: 505px;
+   
+}
+#rute2 
+{
+    grid-area: r1k2;
+    background-color:aquamarine;
+    min-height: 309px;
+    min-width: 505px;
+}
+
+#rute3 
+{
+    grid-area: r2k1;
+    background-color:aquamarine;
+    min-height: 309px;
+    min-width: 505px;
+}
+
+#rute4
+{
+    grid-area: r2k2;
+    background-color:aquamarine;
+    min-height: 309px;
+    min-width: 505px;
+}
+
+#bilde1
+{
+    background-image: url("image_part_001.jpg"); 
+    min-height: 309px;
+    min-width: 505px;
+    
+    
+}
+
+#bilde2
+{
+    background-image: url("image_part_002.jpg"); 
+    min-height: 309px;
+    min-width: 505px;
+
+}
+
+#bilde3
+{
+background-image: url("image_part_003.jpg"); 
+    min-height: 309px;
+    min-width: 505px;
+
+}
+
+#bilde4
+{
+background-image: url("image_part_004.jpg");  
+    min-height: 309px;
+    min-width: 505px;
+
+}
